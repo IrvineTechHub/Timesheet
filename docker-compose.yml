@@ -2,12 +2,12 @@ version: "3"
 services:
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend/Paysheet_Front
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
     volumes:
-      - ./frontend:/app
+      - ./frontend/Paysheet_Front:/app
     command: sh -c "npm install && npm start"
     depends_on:
       - db
