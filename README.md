@@ -1,19 +1,26 @@
 # 📑 Timesheet 📑
-온라인 타임시트 사이트
+Online Timesheet Site
 
-## ☀️ 프로젝트 소개
-손글씨로 적은 타임시트를 사진으로 찍어서 직원들의 checkin 을 관리하는 사이트 <br>
-직원들의 근무 시간과 급여를 확인할 수 있다.<br>
-erpnext를 통해 체계적으로 관리 가능<br>
+## Irvine Tech Hub
+![image](https://github.com/IrvineTechHub/.github/assets/94919595/90acf5d5-2887-4a10-83b7-2e28ae9d4517)
 
-## 🔨 개발 환경
-- Frontend : react
-- Backend  : flask
-- Database : mysql
+## ☀️ Project Introduction
+A site for managing employee check-ins by taking photos of handwritten timesheets. <br>
+It allows for the monitoring of employees' working hours and salaries.<br>
+Systematic management is possible through ERPNext.<br>
 
-## 사용방법
+## 🔨 Development Environment
+
+| **Frontend([Settings](https://github.com/IrvineTechHub/Paysheet_Front))** | **Backend(Settings)** | **Database** | **ERPNext** |
+| --- | --- | --- | --- |
+| ![download](https://github.com/IrvineTechHub/.github/assets/94919595/a6704c14-b2b2-4490-b4c4-b728fdb13b2c) | ![download](https://github.com/IrvineTechHub/.github/assets/94919595/1f9ec188-e209-4480-9d8d-c4161bfc4eef) | ![download](https://github.com/IrvineTechHub/.github/assets/94919595/1676e933-6ab6-4f52-b49f-274a682c4829) | ![download](https://github.com/IrvineTechHub/.github/assets/94919595/a1da9074-4567-47b9-a67b-2e56d3888500) |
+
+
+
+## How to Use
 ![image](https://github.com/IrvineTechHub/Timesheet/assets/115137708/6323de68-5c36-4e5d-ae27-9a356297ea06)
-erpNext의 회원가입 후 employee 에 직원을 등록한다.
+Proceed with ERPNext registration.
+Then, search for Employee List in the search bar and add employees to the list.
 
 ```
 git clone https://github.com/IrvineTechHub/Timesheet.git
@@ -25,23 +32,26 @@ cd ../Paysheet_Front
 npm install
 npm start
 ```
-실행후 url 창에 localhost:5000/api/employee_list 를 입력한다.
-실행 후 url 창에 localhost:3000을 입력한다.
+
+To check data in Flask: after running, enter localhost:5000/api/employee_list in the URL bar.
+To check the front in React: after running, enter localhost:3000 in the URL bar.
 
 
-## 📱 주요 기능
-#### 사진 업로드
-<img width="627" alt="image" src="https://github.com/IrvineTechHub/Timesheet/assets/115137708/88ee0c56-7422-4684-b9fd-2053e91e6828">
+## 📱 Key Features
+#### How To Use TIMESHEET OCR
+| File Upload | Show IMG | Show IMG To Text | 
+| :---: | :---: | :---: |
+| ![image](https://github.com/IrvineTechHub/.github/assets/94919595/14ebe3de-aa7a-4fc1-a524-f7a4c3de1b6c) | ![image](https://github.com/IrvineTechHub/.github/assets/94919595/c8673133-5813-45b0-a440-82c65c3870d8) | ![image](https://github.com/IrvineTechHub/.github/assets/94919595/debb7c9e-e577-48fe-ac0c-c1b568a9099f) |
+| **Modify INFOS** | **Set rate per hour** | **Payroll Overview** |
+| ![image](https://github.com/IrvineTechHub/.github/assets/94919595/01dc8236-554e-469a-b1d0-9bf0df321294) | ![image](https://github.com/IrvineTechHub/.github/assets/94919595/c2dfe49d-e4ad-466a-a746-c05fcb7990fb) | ![image](https://github.com/IrvineTechHub/Timesheet/assets/115137708/04e9581e-e20c-44af-a14c-835ce185cac4) |
 
-#### 직원 근무 시간 통계
-<img width="628" alt="image" src="https://github.com/IrvineTechHub/Timesheet/assets/115137708/5c823ea0-1570-4078-b066-251ab02c44ce">
-
-#### 급여 통계
-<img width="626" alt="image" src="https://github.com/IrvineTechHub/Timesheet/assets/115137708/04e9581e-e20c-44af-a14c-835ce185cac4">
+#### DEMO
+![TimesheetOCR](https://github.com/IrvineTechHub/.github/assets/94919595/731965ff-a6bd-4094-9547-ed74eae68298)
 
 
-## 🦜 팀원
+## 🦜 Team Members
 |Jihyun Jeon|Taehong Lee|Somi Nam|Jiu Song|Jiwon Park|Yiyoung Kim|
 |:---:|:---:|:---:|:---:|:---:|:---:|
+||![image](https://github.com/IrvineTechHub/.github/assets/94919595/8615ba5f-a907-421e-b8af-234a42d83e03) ||![image](https://github.com/IrvineTechHub/.github/assets/94919595/0448a2a4-0dbe-4c85-b56b-96be9a637606)||
 |  [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:argan719@naver.com)](mailto:argan719@naver.com)|[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:2t_hong@naver.com)](mailto:2t_hong@naver.com)|[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:somi4219@gmail.com)](mailto:somi4219@gmail.com)|[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:alpakaka000808@gmail.com)](mailto:alpakaka000808@gmail.com)|[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:pich7755@naver.com)](mailto:pich7755@naver.com)|[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lee20kim@gmail.com)](mailto:lee20kim@gmail.com)|
 
